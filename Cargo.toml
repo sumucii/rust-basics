@@ -1,0 +1,90 @@
+[package]
+name = "rust-basics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2.1.0"
+rand = "0.9.0-alpha.2"
+
+
+#要使每个目录中的main.rs都生效，你需要在Cargo.toml文件中为每个二进制文件添加相应的配置。
+#确保每个二进制文件都有一个唯一的名称和正确的路径。
+
+[[bin]]
+name = "hello"
+path = "hello/src/main.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "guessing_game/src/main.rs"
+
+[[bin]]
+name = "variables"
+path = "variables/src/main.rs"
+
+[[bin]]
+name = "data_types"
+path = "data_types/src/main.rs"
+
+[[bin]]
+name = "functions"
+path = "functions/src/main.rs"
+
+[[bin]]
+name = "control_flow"
+path = "control_flow/src/main.rs"
+
+[[bin]]
+name = "ownership"
+path = "ownership/src/main.rs"
+
+[[bin]]
+name = "references"
+path = "references/src/main.rs"
+
+[[bin]]
+name = "slices"
+path = "slices/src/main.rs"
+
+[[bin]]
+name = "structs"
+path = "structs/src/main.rs"
+
+[[bin]]
+name = "enums"
+path = "enums/src/main.rs"
+
+[[bin]]
+name = "modules"
+path = "modules/src/main.rs"
+
+[[bin]]
+name = "error_handling"
+path = "error_handling/src/main.rs"
+
+[[bin]]
+name = "generics"
+path = "generics/src/main.rs"
+
+[[bin]]
+name = "tests"
+path = "tests/src/main.rs"
+
+[[bin]]
+name = "benchmarks"
+path = "benchmarks/src/main.rs"
+
+[[bin]]
+name = "macros"
+path = "macros/src/main.rs"
+
+[[bin]]
+name = "closures"
+path = "closures/src/main.rs"
+
+[[bin]]
+name = "iterators"
+path = "iterators/src/main.rs"
+
+[[bin]]

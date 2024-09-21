@@ -88,3 +88,7 @@ name = "iterators"
 path = "iterators/src/main.rs"
 
 [[bin]]
+name = "smart_pointers"
+path = "smart_pointers/src/main.rs"
+
+[[bin]]

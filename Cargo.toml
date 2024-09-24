@@ -6,6 +6,7 @@ edition = "2021"
 [dependencies]
 colored = "2.1.0"
 rand = "0.9.0-alpha.2"
+libc = "0.2.158"
 
 
 #要使每个目录中的main.rs都生效，你需要在Cargo.toml文件中为每个二进制文件添加相应的配置。
@@ -90,3 +91,11 @@ path = "iterators/src/main.rs"
 [[bin]]
 name = "smart_pointers"
 path = "smart_pointers/src/main.rs"
+
+[[bin]]
+name = "concurrency"
+path = "concurrency/src/main.rs"
+
+[[bin]]
+name = "ffi"
+path = "ffi/src/main.rs"

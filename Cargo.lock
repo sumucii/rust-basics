@@ -110,6 +110,7 @@ name = "rust-basics"
 version = "0.1.0"
 dependencies = [
  "colored",
+ "libc",
  "rand",
 ]
 
